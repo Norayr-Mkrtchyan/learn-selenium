@@ -15,7 +15,7 @@ options.headless = True
 
 # Assigning service and options to the driver
 driver = webdriver.Firefox(
-    service=Service(r'geckodriver.exe'),
+    service=Service('geckodriver.exe'),
     options=options
 )
 
