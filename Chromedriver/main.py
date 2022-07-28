@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 # url - the site url which we are going to visit
 # chromedriver_path - chromedriver path in the local folder
 url = "https://www.amazon.com/"
-chromedriver_path = 'C:\\Users\\noray\\PycharmProjects\\HelpSystems_HomeTask\\Chromedriver\\chromedriver.exe'
+chromedriver_path = 'chromedriver.exe'
 
 # Giving an option to automatically start browser in maximized mode  by adding an argument "start-maximized"
 options = webdriver.ChromeOptions()
